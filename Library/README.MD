@@ -1,0 +1,1 @@
+# Library for get square for Circle and Triangle
