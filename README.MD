@@ -33,3 +33,12 @@ public class Square : Figure {
   }
 }
 ```
+
+## SQL-Code to get ProductCategories relation
+
+```sql
+select P.Name, C.Name
+from Product P
+  left join Product2Category P2C on P2C.ProductId = P.Id
+  left join Category C on P2C.CategoryId = C.Id
+```
